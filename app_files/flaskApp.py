@@ -27,7 +27,7 @@ def hello():
     <body>
 	    <h1>About Me</h1>
 		    <div>Hello my name is Seán. I am a 3rd year student at Technological University Dublin.
-		    Visit (the current IP address)/contanct-me to contact me.</div>
+		    Visit (the current IP address)/contact-me to contact me.</div>
     </body>
     </html>
     """
