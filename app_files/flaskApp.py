@@ -16,7 +16,7 @@ except OSError:
 
 @app.route('/')
 def hello():
-    """<!DOCTYPE html>
+    return """<!DOCTYPE html>
         <html>
         <head>
 	        <meta charset="utf-8"/>
