@@ -11,7 +11,7 @@ RUN apt-get update
 RUN apt-get -y upgrade
 
 # Copy the application folder inside the container
-ADD /flaskApp /flaskApp
+ADD /app_files /app_files
 
 # Get pip to download and install requirements:
 RUN pip install -r /app_files/requirements.txt
