@@ -32,7 +32,8 @@ def hello():
     </html>
     """
 
-@app.route('contact-me')
+
+@app.route('/contact-me')
 def contact():
     return """
     <!DOCTYPE html>
@@ -46,6 +47,7 @@ def contact():
     </body>
     </html>
     """
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
